@@ -1,0 +1,36 @@
+2024-04-21T18:58:53.919+05:30  INFO 21532 --- [restApp] [restartedMain] com.sam.restApp.RestAppApplication       : Starting RestAppApplication using Java 17.0.9 with PID 21532 (C:\MyProject\restApp\target\classes started by sam24 in C:\MyProject\restApp)
+2024-04-21T18:58:53.945+05:30  INFO 21532 --- [restApp] [restartedMain] com.sam.restApp.RestAppApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-04-21T18:58:54.189+05:30  INFO 21532 --- [restApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-21T18:58:54.190+05:30  INFO 21532 --- [restApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-21T18:58:57.621+05:30  INFO 21532 --- [restApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-21T18:58:57.772+05:30  INFO 21532 --- [restApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 118 ms. Found 1 JPA repository interface.
+2024-04-21T18:59:00.312+05:30  INFO 21532 --- [restApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8400 (http)
+2024-04-21T18:59:00.340+05:30  INFO 21532 --- [restApp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-21T18:59:00.341+05:30  INFO 21532 --- [restApp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-21T18:59:00.477+05:30  INFO 21532 --- [restApp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-21T18:59:00.478+05:30  INFO 21532 --- [restApp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6286 ms
+2024-04-21T18:59:01.321+05:30  INFO 21532 --- [restApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-21T18:59:01.886+05:30  INFO 21532 --- [restApp] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3bb2ef42
+2024-04-21T18:59:01.890+05:30  INFO 21532 --- [restApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-21T18:59:02.022+05:30  INFO 21532 --- [restApp] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-21T18:59:02.250+05:30  INFO 21532 --- [restApp] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-21T18:59:02.351+05:30  INFO 21532 --- [restApp] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-21T18:59:03.221+05:30  INFO 21532 --- [restApp] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-21T18:59:03.413+05:30  WARN 21532 --- [restApp] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgresPlusDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-21T18:59:05.385+05:30  INFO 21532 --- [restApp] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-21T18:59:05.557+05:30  INFO 21532 --- [restApp] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-21T18:59:07.309+05:30  WARN 21532 --- [restApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-21T18:59:09.665+05:30  WARN 21532 --- [restApp] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 9b9a7afd-6111-42ae-88c3-da21838bcac9
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-04-21T18:59:10.042+05:30  INFO 21532 --- [restApp] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-04-21T18:59:10.159+05:30  INFO 21532 --- [restApp] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1c2246c3, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@469d0d9d, org.springframework.security.web.context.SecurityContextHolderFilter@4051c7a7, org.springframework.security.web.header.HeaderWriterFilter@7b6146c5, org.springframework.web.filter.CorsFilter@1a52759, org.springframework.security.web.csrf.CsrfFilter@1d65acbc, org.springframework.security.web.authentication.logout.LogoutFilter@71658e03, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2971f4b1, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@44a04683, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@cb5ed27, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@45e41bc7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@62eba039, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@34fe3c16, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@22fa62c, org.springframework.security.web.access.ExceptionTranslationFilter@60a276cf, org.springframework.security.web.access.intercept.AuthorizationFilter@c5de6a1]
+2024-04-21T18:59:10.685+05:30  INFO 21532 --- [restApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-21T18:59:10.911+05:30  INFO 21532 --- [restApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8400 (http) with context path ''
+2024-04-21T18:59:10.953+05:30  INFO 21532 --- [restApp] [restartedMain] com.sam.restApp.RestAppApplication       : Started RestAppApplication in 18.351 seconds (process running for 21.513)
+2024-04-21T20:18:25.060+05:30  WARN 21532 --- [restApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m46s705ms737µs300ns).
+2024-04-21T22:01:42.696+05:30  WARN 21532 --- [restApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46m16s748ms922µs).
+2024-04-21T22:43:53.106+05:30  WARN 21532 --- [restApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m9s794ms902µs300ns).
